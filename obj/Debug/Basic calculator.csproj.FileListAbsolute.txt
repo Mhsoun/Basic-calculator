@@ -1,0 +1,7 @@
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\bin\Debug\Basic calculator.exe.config
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\bin\Debug\Basic calculator.exe
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\bin\Debug\Basic calculator.pdb
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\obj\Debug\Basic calculator.csprojAssemblyReference.cache
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\obj\Debug\Basic calculator.csproj.CoreCompileInputs.cache
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\obj\Debug\Basic calculator.exe
+C:\Users\mmhso\source\repos\Basic calculator\Basic calculator\obj\Debug\Basic calculator.pdb
