@@ -13,42 +13,44 @@ namespace Basic_calculator
     {
         static void Main(string[] args)
         {
+            //gathering input from user
+
             Console.WriteLine("Hi and welcome to the Basic calculator");
             Console.WriteLine("Enter the first number");
-            string firstNumber = Console.ReadLine();
+            _ = int.TryParse(Console.ReadLine(), out int firstNumber);
             Console.WriteLine("Please choose what operation you wanna do!");
             Console.WriteLine("if addition typ +, subtraction typ - , multiplication typ x or typ / for division");
             string operationCode = Console.ReadLine();
             Console.WriteLine("Enter the second number!");
-            string secondNumber = Console.ReadLine();
+            _ = int.TryParse(Console.ReadLine(), out int secondNumber);
 
-            int result = 0;
+            
+            int result;
 
             if (operationCode == "+")
             {
-                result = int.Parse(firstNumber) + int.Parse(secondNumber);
+                result = firstNumber + secondNumber;
                 Console.WriteLine("the result is: " + result);
 
             }
             else if (operationCode == "-")
             {
-                result = int.Parse(firstNumber) - int.Parse(secondNumber);
+                result = firstNumber - secondNumber;
                 Console.WriteLine("the result is: " + result);
 
             }
             else if (operationCode == "x")
             {
-                result = int.Parse(firstNumber) * int.Parse(secondNumber);
+                result = firstNumber * secondNumber;
                 Console.WriteLine("the result is: " + result);
 
             }
             else if (operationCode == "/")
             {
-                if (secondNumber != "0")
+                if (secondNumber!= 0)
                 {
-                    result = int.Parse(firstNumber) / int.Parse(secondNumber);
+                    result = firstNumber/ secondNumber;
                     Console.WriteLine("the result is: " + result);
-
                 }
                 else
                 {
