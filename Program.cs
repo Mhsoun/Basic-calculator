@@ -27,6 +27,7 @@ namespace Basic_calculator
             
             int result;
 
+            //performing the math operation according to user input
             if (operationCode == "+")
             {
                 result = firstNumber + secondNumber;
@@ -47,7 +48,7 @@ namespace Basic_calculator
             }
             else if (operationCode == "/")
             {
-                if (secondNumber!= 0)
+                if (secondNumber!= 0)//check if second number not zero 
                 {
                     result = firstNumber/ secondNumber;
                     Console.WriteLine("the result is: " + result);
